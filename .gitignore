@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+dist/
+build/
+
+# macOS
+.DS_Store
+
+# Editor
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Test artifacts
+/tmp/opencode/
