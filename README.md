@@ -3,8 +3,8 @@
 **Stop coding agents from hallucinating files, functions, classes, APIs, dependencies, env vars, and architecture.**
 
 A two-layer defense:
-1. **Prompt rules** (SKILL.md) — trains the model to verify before claiming
-2. **Deterministic backstop** (verify-diff.py) — scans diffs against the actual filesystem, project manifests, and package registries
+1. **Prompt rules** (SKILL.md): trains the model to verify before claiming
+2. **Deterministic backstop** (verify-diff.py): scans diffs against the actual filesystem, project manifests, and package registries
 
 ## Quick install
 
