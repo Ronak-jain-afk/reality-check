@@ -1,9 +1,14 @@
+# Node
+node_modules/
+
+# Build output
+dist/
+
 # Python
 __pycache__/
 *.py[cod]
 *.egg-info/
 *.egg
-dist/
 build/
 
 # macOS
@@ -18,6 +23,9 @@ build/
 
 # Agent instructions (local to each user)
 AGENTS.md
+
+# Stray artifacts
+md
 
 # Test artifacts
 /tmp/opencode/

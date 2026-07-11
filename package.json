@@ -1,0 +1,32 @@
+{
+  "name": "reality-check",
+  "version": "0.1.0",
+  "description": "OpenCode plugin that prevents coding agents from hallucinating files, functions, APIs, dependencies, env vars, and architecture.",
+  "type": "module",
+  "main": "dist/index.js",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "opencode",
+    "plugin",
+    "reality-check",
+    "hallucination",
+    "verification"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@opencode-ai/plugin": "^1.17.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.1",
+    "typescript": "^5.7.0"
+  }
+}
