@@ -1,5 +1,8 @@
 {
-  "name": "reality-check",
+  "name": "@ronak-jain-afk/reality-check",
+"publishConfig": {
+  "access": "public"
+},
   "version": "0.1.0",
   "description": "OpenCode plugin that prevents coding agents from hallucinating files, functions, APIs, dependencies, env vars, and architecture.",
   "type": "module",

@@ -14,7 +14,7 @@ Add to `opencode.json`:
 
 ```json
 {
-  "plugin": ["reality-check"]
+  "plugin": ["@ronak-jain-afk/reality-check"]
 }
 ```
 
@@ -22,7 +22,7 @@ Or pin a version:
 
 ```json
 {
-  "plugin": ["reality-check@0.1.0"]
+  "plugin": ["@ronak-jain-afk/reality-check@0.1.0"]
 }
 ```
 
